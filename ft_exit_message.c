@@ -6,13 +6,13 @@
 /*   By: jgamarra <jgamarra@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 22:56:11 by jgamarra          #+#    #+#             */
-/*   Updated: 2024/09/09 23:00:59 by jgamarra         ###   ########.fr       */
+/*   Updated: 2024/09/11 22:45:34 by jgamarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	exit_message(char *message, int code)
+void	ft_exit_message(char *message, int code)
 {
 	ft_printf("%s\n", message);
 	exit(code);
