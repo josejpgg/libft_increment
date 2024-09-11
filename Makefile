@@ -9,11 +9,13 @@ ft_split.c ft_striteri.c ft_strjoin.c ft_strmapi.c ft_strtrim.c \
 ft_substr.c \
 ft_printf.c ft_flag_bonus.c ft_print_fd.c ft_word.c ft_numeric.c ft_hexadecimal.c \
 ft_isupper.c ft_islower.c get_next_line.c get_next_line_utils.c \
-ft_exit_message.c ft_isnegnumber.c ft_isposnumber.c
+ft_exit_message.c ft_isnegnumber.c ft_isposnumber.c \
+ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
+ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c \
+ft_lstiter_bonus.c ft_lstlast_bonus.c ft_lstmap_bonus.c
 SRC_B = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c \
-ft_lstiter_bonus.c ft_lstlast_bonus.c ft_lstmap_bonus.c \
-ft_printf.c ft_flag_bonus.c ft_print_fd.c ft_word.c ft_numeric.c ft_hexadecimal.c
+ft_lstiter_bonus.c ft_lstlast_bonus.c ft_lstmap_bonus.c
 FLAG = -Wall -Werror -Wextra
 OBJ = $(SRC:.c=.o)
 OBJ_B = $(SRC_B:.c=.o)
