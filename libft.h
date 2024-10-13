@@ -6,7 +6,7 @@
 /*   By: jgamarra <jgamarra@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/14 16:19:24 by jgamarra          #+#    #+#             */
-/*   Updated: 2024/09/11 22:45:42 by jgamarra         ###   ########.fr       */
+/*   Updated: 2024/10/13 16:55:41 by jgamarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,10 @@
 
 typedef struct s_list
 {
+	int				target_node;
+	int				target_index;
+	int				cost_rotate;
+	int				index;
 	void			*content;
 	struct s_list	*next;
 }	t_list;
