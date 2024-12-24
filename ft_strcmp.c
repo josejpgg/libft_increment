@@ -3,15 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jgamarra <jgamarra@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jgamarra <jgamarra@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/14 16:03:23 by jgamarra          #+#    #+#             */
-/*   Updated: 2024/12/08 19:41:17 by jgamarra         ###   ########.fr       */
+/*   Updated: 2024/12/24 14:03:07 by jgamarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
+* Function compares the two entire strings s1 and s2.
+*/
 int	ft_strcmp(const char *s1, const char *s2)
 {
 	size_t	i;
