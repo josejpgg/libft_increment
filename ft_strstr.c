@@ -6,7 +6,7 @@
 /*   By: jgamarra <jgamarra@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/14 16:03:23 by jgamarra          #+#    #+#             */
-/*   Updated: 2025/01/04 18:58:01 by jgamarra         ###   ########.fr       */
+/*   Updated: 2025/01/04 19:05:40 by jgamarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 * The strstr() function locates the first occurrence of the null-terminated
 * return a pointer to the located string, or NULL if the string is not found.
 */
-char	*strstr(const char *haystack, const char *needle)
+char	*ft_strstr(const char *haystack, const char *needle)
 {
 	char	*find;
 	char	*string;
