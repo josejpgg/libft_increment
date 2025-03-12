@@ -6,7 +6,7 @@
 /*   By: jgamarra <jgamarra@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/14 16:19:24 by jgamarra          #+#    #+#             */
-/*   Updated: 2025/01/26 16:01:02 by jgamarra         ###   ########.fr       */
+/*   Updated: 2025/03/12 19:54:50 by jgamarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,6 @@ int		ft_isnegnumber(char *str);
 int		ft_strcmp(const char *s1, const char *s2);
 char	*ft_strstr(const char *haystack, const char *needle);
 int		ft_isspace(char c);
+void	ft_exit_message_fd(int fd, char *message, int code);
 
 #endif
